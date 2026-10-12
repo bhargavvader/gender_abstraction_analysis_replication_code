@@ -1,0 +1,9 @@
+data/**
+!data/**/
+!data/**/*.csv
+!data/**/*.md
+!data/README.md
+!data/**/.gitkeep
+results/**
+!results/.gitkeep
+__pycache__/
