@@ -18,7 +18,7 @@ Nomic v2 MoE, GPT2), read from the gender columns of `MASTER_all_models_gender_a
 ├── requirements.txt
 ├── registry.py               THE 12-model set (display name -> master column -> Fig. 2 marker); single source of truth
 ├── paths.py                  resolves data/ and results/ (env-var overridable); imported by every Python script
-├── data/                     INPUT DATA GO HERE (not tracked; see "Data" below)
+├── data/                     supplied CSV summaries and locations for additional inputs (see "Data" below)
 ├── results/                  all outputs are written here, one sub-folder per script
 ├── figure_01/
 │   ├── common.py                 loader + panel definitions (Python Fig. 1)
@@ -66,8 +66,8 @@ at them). CSV summaries and documentation under `data/` are tracked; the full ra
 | `data/norms/` | `Ratings_Warriner_et_al.csv` (Warriner et al. 2013 VAD; `Word`, `V.Mean.Sum`, `A.Mean.Sum`, `D.Mean.Sum`; first column a row index) | SI 5 | Warriner et al. (2013) release |
 | `data/images/` | `image_class_w_conc_PROCESSED.csv` (one row per search term: num_faces, num_males, frac_male, conc, freq, gender_conf, Dom_Pos, …) | Fig 3, Fig 4, SI 2, SI 8, SI 9 | Contact the authors |
 | `data/images/` | `word_surprise_metrics.csv` (visual-divergence interface v1; 38,883 rows × 16 cols; `unique_objects`) | Fig 4 | Contact the authors |
-| `data/images/` | `word_surprise_metrics_with_image_counts.csv` (metrics with retained image counts appended) | Fig 4 image-count robustness | Contact the authors |
-| `data/images/` | `search_term_image_counts.csv` (standalone retained image counts by search term) | Supporting data | Contact the authors |
+| `data/images/` | `word_surprise_metrics_with_image_counts.csv` (metrics with retained image counts appended) | Fig 4 image-count robustness | Included |
+| `data/images/` | `search_term_image_counts.csv` (standalone retained image counts by search term) | Supporting data | Included |
 | `data/free_associations/` | `strength_SWOW-EN_R123_20180827.csv` (SWOW strength release; tab-separated with unescaped quotes — read with `quoting=csv.QUOTE_NONE`; 1,389,711 cue–response pairs, 12,216 cues) | Fig 5 | Small World of Words (De Deyne et al. 2019) |
 | `data/free_associations/` | `associations_data_all_scores.json` (LWOW processed release) | Fig 5 | LLM World of Words (Abramski et al. 2025) |
 

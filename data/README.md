@@ -4,7 +4,7 @@ Added 12 October 2026: `images/search_term_image_counts.csv` and
 `images/word_surprise_metrics_with_image_counts.csv`. See
 [image-count provenance and updated-script locations](images/IMAGE_COUNTS_README.md).
 
-Input files are not tracked. Place them exactly here (or set the GC_* environment variables in ../paths.py):
+The image-count CSV summaries are included. Other inputs are available from the authors listed in the repository README. Place them exactly here (or set the GC_* environment variables in ../paths.py):
 
     data/text/master/MASTER_all_models_gender_all_concreteness.csv     full master (NOT the _SIMPLE copy)
     data/norms/Concreteness_ratings_Brysbaert_et_al_BRM_ext.csv
