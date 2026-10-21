@@ -12,6 +12,31 @@ Nomic v2 MoE, GPT2), read from the gender columns of `MASTER_all_models_gender_a
 
 ## Layout
 
+### Updated figures (October 2026)
+
+```bash
+python figure_03/figure_03_three_panel.py
+python figure_05/make_fig5_free_association.py
+```
+
+`figure_03_three_panel.py` adds a face-presence panel to Figure 3 and writes both
+all-term and single-word versions to `figures/` (override with `GC_FIG_DIR`). It reads
+the image-classification table, Lancaster norms, and the included metrics with image
+counts; override inputs with `GC_IMAGE_FILE`, `GC_LANC_FILE`, and `GC_IMGCOUNT_FILE`.
+
+`make_fig5_free_association.py` produces the updated single-panel Figure 5, without
+the former heat map, in `results/figure_05/` (under `GC_RESULTS_DIR` if set). By default
+it uses the supplied rounded correlation snapshot. To use the full-precision output
+of `figure_05_compute.py`, run:
+
+```bash
+GC_CORR_CSV=results/figure_05/master12_correlations.csv python figure_05/make_fig5_free_association.py
+```
+
+The earlier figure scripts remain available for reproducing the previous layouts.
+Both Figure 5 plotting scripts write `fig5_free_association.png` and `.pdf`, so the
+last one run determines those output files.
+
 ```
 .
 ├── README.md
