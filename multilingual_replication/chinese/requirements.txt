@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+spacy>=3.8,<3.9
+jupyter
+# plus the Chinese model (not on PyPI):
+# pip install https://github.com/explosion/spacy-models/releases/download/zh_core_web_lg-3.8.0/zh_core_web_lg-3.8.0-py3-none-any.whl

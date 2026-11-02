@@ -1,0 +1,10 @@
+code,name,r,ci_lo,ci_hi,n,gender_system,source,r_extended
+nl,Dutch,-0.268,-0.279,-0.256,23758,common/neuter only,"Supplementary Section (Dutch): spaCy nl vectors, Brysbaert et al. 2014",
+tr,Turkish,-0.24418285980701054,-0.32002386641340125,-0.16523225876844122,568,genderless,Goz et al. 2017 (Turkish),-0.1920287168237977
+it,Italian,-0.1865604648047579,-0.24263596803099052,-0.12924245486622196,1114,grammatical gender,Montefinese et al. 2014 ANEW-ITA (Italian),-0.20280325606546723
+et,Estonian,-0.124,-0.135,-0.114,33031,genderless,"Supplementary Section (Estonian): fastText cc.et, Proos & Aigro 2023",
+fr,French,-0.11807715555751341,-0.16563643503456543,-0.06996992838611737,1633,grammatical gender,Bonin et al. 2018 (French),-0.1411963534323495
+zh,Chinese,-0.111,-0.123,-0.098,23961,genderless,"Supplementary Section (Chinese): spaCy zh vectors, Chan & Tse 2024",
+en,"English (12-model mean, single words)",-0.085,-0.131,-0.039,39953,natural gender (pronouns only),"Supplementary Table 3: mean of 12 models, CI across models",
+pt,Portuguese,-0.03949383825130269,-0.07120107600385825,-0.007706866263605573,3800,grammatical gender,Soares et al. 2017 Minho Word Pool (European Portuguese),-0.06138589997164095
+id,Indonesian,-0.02681257594239809,-0.07857739364164018,0.025096439461824497,1428,genderless,Sianipar et al. 2016 (Indonesian),0.05355497402357294

@@ -1,0 +1,7 @@
+*.vec
+*.vec.gz
+*.bin
+*.bin.gz
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

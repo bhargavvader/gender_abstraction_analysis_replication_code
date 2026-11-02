@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+wordfreq
+spacy>=3.8,<3.9
+jupyter
+# plus the Dutch model (not on PyPI):
+# pip install https://github.com/explosion/spacy-models/releases/download/nl_core_news_lg-3.8.0/nl_core_news_lg-3.8.0-py3-none-any.whl

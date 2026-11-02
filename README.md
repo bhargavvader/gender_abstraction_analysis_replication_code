@@ -12,6 +12,9 @@ Nomic v2 MoE, GPT2), read from the gender columns of `MASTER_all_models_gender_a
 
 ## Layout
 
+Multilingual text-analysis code, norms, saved results, and model-download instructions
+are in [multilingual_replication/](multilingual_replication/README.md).
+
 ### Updated figures (October 2026)
 
 ```bash
